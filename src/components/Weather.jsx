@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DisplayWeather from "./DisplayWeather";
-import "./styles/weather.css";
+import "../styles/weather.css";
 
 function Weather() {
   const [weather, setWeather] = useState([]);
@@ -9,7 +9,7 @@ function Weather() {
     country: "",
   });
 
-  const APIKEY = "Enter Your API Key";
+  const APIKEY = "47b8c411cbaefbb5c821ccfce0e210fa";
   
   async function weatherData(e) {
     e.preventDefault();
